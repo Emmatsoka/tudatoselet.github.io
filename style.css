@@ -1,4 +1,11 @@
-
+*{
+    transition: 0.8s all!important;
+    -webkit-transition: 0.8s all!important;
+    -moz-transition: 0.8s all!important;
+    -ms-transition: 0.8s all!important;
+    -o-transition: 0.8s all!important;
+    scroll-behavior: smooth!important;
+}
 .rounded{
     border-radius: 15px!important;
     -webkit-border-radius: 15px!important;
@@ -70,4 +77,7 @@ hr{
     border-top: 0px;
     border-bottom: solid 2px !important;
     border-style:dashed!important;
+}
+.text-success{
+    color: #3acb41!important;
 }
