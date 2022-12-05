@@ -81,3 +81,21 @@ hr{
 .text-success{
     color: #3acb41!important;
 }
+.alert-success{
+    background-color: #28a745!important;
+    color: white!important;
+    border: 0px!important;
+    border-radius: 10px!important;
+    -webkit-border-radius: 10px!important;
+    -moz-border-radius: 10px!important;
+    -ms-border-radius: 10px!important;
+    -o-border-radius: 10px!important;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+@media only screen and (max-width: 800px) {
+    .alert-success{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+}
