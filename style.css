@@ -90,8 +90,6 @@ hr{
     -moz-border-radius: 10px!important;
     -ms-border-radius: 10px!important;
     -o-border-radius: 10px!important;
-    margin-left: 25%;
-    margin-right: 25%;
 }
 @media only screen and (max-width: 800px) {
     .alert-success{
@@ -111,4 +109,7 @@ hr{
     -moz-border-radius: 10px!important;
     -ms-border-radius: 10px!important;
     -o-border-radius: 10px!important;
+}
+.btn{
+    width: 14rem!important;
 }
