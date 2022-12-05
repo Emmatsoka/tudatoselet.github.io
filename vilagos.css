@@ -1,0 +1,118 @@
+*{
+    transition: 0.8s all!important;
+    -webkit-transition: 0.8s all!important;
+    -moz-transition: 0.8s all!important;
+    -ms-transition: 0.8s all!important;
+    -o-transition: 0.8s all!important;
+    scroll-behavior: smooth!important;
+}
+.rounded{
+    border-radius: 15px!important;
+    -webkit-border-radius: 15px!important;
+    -moz-border-radius: 15px!important;
+    -ms-border-radius: 15px!important;
+    -o-border-radius: 15px!important;
+}
+h2{
+    font-size: 2rem!important;
+}
+@media only screen and (max-width: 360px) {
+    h2{
+        font-size: 1.5rem!important;
+    }
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+ 
+  ::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+  
+ 
+  ::-webkit-scrollbar-thumb {
+    background: #28a745;
+  }
+  
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+  .navbar{
+    border-radius: 20px!important;
+    -webkit-border-radius: 20px!important;
+    -moz-border-radius: 20px!important;
+    -ms-border-radius: 20px!important;
+    -o-border-radius: 20px!important;
+}
+.border-left{
+    border-left: solid  2px !important;
+
+    border-left-style:dashed!important;
+}
+.border-bottom{
+    border-bottom: solid 2px !important;
+    border-bottom-style:dashed!important;
+}
+.border-top{
+    border-top: solid 2px !important;
+    border-top-style:dashed!important;
+}
+@media only screen and (max-width: 666px) {
+    .border-left{
+        border-left: 0px!important;
+    }
+}
+.border-light{
+    border-color: #8b8b8b!important;
+    
+}
+hr{
+    border-right: 0px;
+    border-left: 0px;
+    border-top: 0px;
+    border-bottom: solid 2px !important;
+    border-style:dashed!important;
+}
+.text-success{
+    color: #3acb41!important;
+}
+.alert-success{
+    background-color: #28a745!important;
+    color: white!important;
+    border: 0px!important;
+    border-radius: 10px!important;
+    -webkit-border-radius: 10px!important;
+    -moz-border-radius: 10px!important;
+    -ms-border-radius: 10px!important;
+    -o-border-radius: 10px!important;
+}
+@media only screen and (max-width: 800px) {
+    .alert-success{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+}
+
+.alert-primary{
+    background-color: #28a745!important;
+    color: white!important;
+    border: 0px!important;
+    border-radius: 10px!important;
+    -webkit-border-radius: 10px!important;
+    -moz-border-radius: 10px!important;
+    -ms-border-radius: 10px!important;
+    -o-border-radius: 10px!important;
+}
+.btn{
+    width: 240px!important;
+}
+@media only screen and (min-width: 375px) {
+    .btn{
+        width: 340px!important;
+    }
+}
